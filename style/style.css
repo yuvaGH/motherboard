@@ -171,11 +171,12 @@ header {
 }
 
 .info-stat {
-  max-width: 1146px;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 68px;
+  align-content: center;
+  margin-top: 120px;
 }
 
 .info-stat__icon {
@@ -193,4 +194,29 @@ header {
   display: flex;
   flex-direction: column;
   margin-left: 38px;
+}
+
+
+.info-stat__icon2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.info-stat__icon2::before {
+  content: '';
+  border-left: 2px solid #EEEFF2;
+  height: 125px;
+  width: 2px;
+  position: absolute;
+  right: 260px;
+}
+
+.info-stat__icon2::after {
+  content: '';
+  border-left: 2px solid #EEEFF2;
+  height: 125px;
+  width: 2px;
+  position: absolute;
+  left: 260px;
 }
