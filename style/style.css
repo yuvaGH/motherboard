@@ -50,7 +50,7 @@ table {
 /********************HEADER**************************/
 
 body {
-
+   font-family: Rubik;
 }
 
 header {
@@ -112,13 +112,16 @@ header {
   font-weight: 700;
 }
 
+
 /*-------------------INTRO------------------------*/
 
 .intro {
   max-width: 1146px;
   margin: 0 auto;
   display: flex;
+
   margin-top: 100px;
+  padding: 0px 10px 0 10px;
 }
 
 .info {
@@ -130,15 +133,19 @@ header {
 .title {
   font-family: Rubik;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 50px;
   line-height: 70px;
+}
+
+.needbold {
+  font-weight: 700;
 }
 
 .subtitle {
   font-family: Rubik;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 16px;
   line-height: 30px;
   color: #4F5665;
@@ -151,4 +158,39 @@ header {
   background-color: #F53855;
   color: #ffffff;
   font-weight: 700;
+  box-shadow: 0px 20px 54px -14px #F53855;
+
+}
+
+.promo-img img {
+
+}
+
+.boldvpn {
+  font-weight: 700;
+}
+
+.info-stat {
+  max-width: 1146px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+
+.info-stat__icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text {
+  margin-top: 5px;
+  font-weight: 300;
+  color: #4F5665;
+}
+
+.icon-number {
+  display: flex;
+  flex-direction: column;
+  margin-left: 38px;
 }
