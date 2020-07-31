@@ -474,13 +474,43 @@ header {
 }
 
 /* FEEDBACK */
+
+.feedback-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  max-width: 448px;
+  margin: 0 auto;
+  margin-top: 124px;
+}
+
+.feedback-subtitle {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665;
+  margin: 0 auto;
+  margin-top: 25px;
+  max-width: 555px;
+}
+
+
+
+
 .slider {
   display: flex;
   justify-content: space-around;
-  max-width: 1146px;
+  max-width: 100%;
   margin: 0 auto;
   align-items: center;
-  margin-top: 110px;
+  margin-top: 60px;
+  margin-left: 150px;
 }
 .slider > div {
   width: 100%;
@@ -490,10 +520,76 @@ header {
   display: flex;
 }
 .slider-containter > div {
-  height: 320px;
+  height: 230px;
   width: 400px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  margin-right: 50px;
 }
 
+
+.conteiner-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  right: 45px;
+  position: relative;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.city {
+  font-family: Rubik;
+  color: #4F5665;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.user-comment {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  color: #0B132A;
+  margin-top: 10px;
+
+}
+
+.user-score {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #0B132A;
+}
+
+.user-score img {
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------MEDIA----------------------*/
 @media only screen and (max-width: 1146px) {
   .intro {
     flex-direction: column;
