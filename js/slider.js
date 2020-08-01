@@ -1,4 +1,4 @@
-let countSlider = null;
+/* let countSlider = null;
 let currentDot = 0;
 let prevDot = 0;
 
@@ -23,3 +23,4 @@ function sliderRight() {
 function sliderLeft() {
   console.log('left');
 }
+ */
