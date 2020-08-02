@@ -3,7 +3,6 @@
     <Header/>
     <Intro />
     <Terms />
-    <Promo />
     <Plans />
     <Global />
     <Feedback />
