@@ -1,4 +1,4 @@
-<<template>
+<template>
  <header>
     <div class="logo">
         <img src="/img/Logo.png" alt="Logo">
