@@ -35,13 +35,15 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 46px;
   align-items: center;
   max-width: 1146px;
   margin: 0 auto;
-  padding: 46px 10px 0 10px;
+  padding: 0px 10px 0 10px;
 }
 
+ul>li {
+ list-style: none;
+}
 
 .navigation ul {
   display: flex;
